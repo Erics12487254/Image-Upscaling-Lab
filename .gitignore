@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local image resources and generated results
+*.png
+*.jpg
+*.jpeg
+*.jfif
+*.webp
+*.bmp
+*.tif
+*.tiff
+data/
+SR_results/
+
+# Runtime evaluation database
+evaluation.db
