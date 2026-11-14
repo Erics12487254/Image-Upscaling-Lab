@@ -1,0 +1,13 @@
+# Image processing and evaluation
+opencv-python
+scikit-image
+
+# Super-resolution models
+# BasicSR is pinned to the revision used by the Real-ESRGAN integration.
+torch
+torchvision
+basicsr @ https://github.com/XPixelGroup/BasicSR/archive/f01232e.zip
+realesrgan
+
+# Development and tests
+pytest
